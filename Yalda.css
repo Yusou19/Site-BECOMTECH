@@ -1,0 +1,35 @@
+body {
+    font-family: myanmar, text;
+    padding: 0px;
+    margin: 0px;
+}
+
+.imageCentre {
+    text-align: center
+}
+
+#accueil {
+    background-image: url("https://zupimages.net/up/21/21/kaz9.png");
+    padding: 0px;
+    margin: 0px;
+    height: 670px;
+    background-size: cover;
+}
+
+.contenant {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 400%;
+}
+
+#apropos {
+    background-color: #EEEEEE;
+}
+
+#MakingOff {
+    background-color: #EEEEEE;
+}
