@@ -1,0 +1,38 @@
+nom = input("Quel est ton nom?")
+
+print("Félicitations "+nom+" ! Vous avez été acceptée dans le stage Jumpintech ! Vous vous rendez dans le bâtiment")
+
+question1 = input("Que faites vous ici ? [1]J'me ballade ! [2]Vous vous êtes qui ? [3]Je cherche la salle de jumpintech.")
+question2 = ""
+if question1 == "1":
+    print("Vous êtes au mauvais endroit. Veuillez partir.")
+    exit()
+elif question1 == "2":
+    print("Je suis Paimon, la personne en charge de l'accueil. Merci de me parlez autrement.")
+    question2 = input("[1]Je suis "+nom+" ! Je cherche Jumpintech !")
+if question1 == "3" or question2 == "1":
+    print("Ah d'accord ! Ce sera tout de suite à votre droite.")
+    
+print("Vous entrez dans un long couloir. A votre droite il y a des escaliers, au fond du couloir une porte fermée.")
+question3 = input("Que voulez-vous faire ? [1]Allez tout droit. [2]Monter les escaliers.")
+if question3 == "1":
+    print("Vous vous avancez vers la porte du fond. Vous l'ouvrez et vous vous évanouisser soudainement.")
+if question3 == "2":
+    print("Vous montez les escaliers, arrivé au bout vous tombez sur quelqu'un.")
+question5 = input("[1]L'ignorer ? [2]Bonjour !")
+if question5 == "1":
+    print("Il vous pousse des escaliers et vous mourrez.")
+    exit()
+if question5 == "2":
+    print("... tu cherches la salle du Jumpintech ?")
+elif question5 = input("[1]Oui ! [2]Non.")
+if question5 == "1":
+    print("Suis-moi.")
+if question5 == "2":
+    print("
+    
+    print("Vos yeux s'ouvrent, en face de vous ce trouve un paysage vaste et une petite maison en bois tout au loin.")
+    print("Vous accourez vers la maison, vous toquez à la porte... aucune réponse. Vous entrez donc. Il n'y a personne.)
+    print("Votre ventre gargouille, vous cherchez de quoi manger dans la maison. Vous trouvez une pomme et une boite de gâteau.)
+question4 = input("
+
